@@ -79,7 +79,7 @@ a {
   justify-content: center;
   flex-grow: 1;
   min-height: 350px;
-  background: url("img/back.png") no-repeat center/cover;
+  background: url("../img/back.png") no-repeat center/cover;
   background-blend-mode: luminosity;
   height: 850px; }
   .page-main div {
@@ -150,7 +150,7 @@ a {
   flex-direction: column;
   justify-content: center;
   flex-grow: 1;
-  background: url("img/bg-order.png") no-repeat center/cover;
+  background: url("../img/bg-order.png") no-repeat center/cover;
   background-blend-mode: luminosity;
   height: 1200px; }
   .page-order div {
