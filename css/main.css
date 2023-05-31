@@ -1299,9 +1299,9 @@ p.vk {
 
   input[type=range] {
     -webkit-appearance: none;
-    width: 80.2%;
+    width: 78.2%;
     background: transparent;
-    margin-top: 382px;
+    margin-top: 381px;
     margin-left: 2.2%;
     position: ABSOLUTE; }
     input[type=range]::-webkit-slider-runnable-track {
@@ -1340,7 +1340,7 @@ p.vk {
 
   .rt {
     position: absolute;
-    margin-top: 97%;
+    margin-top: 106%;
     margin-left: 2.2%;
     color: rgba(255, 255, 255, 0.85);
     font-family: "Lato";
