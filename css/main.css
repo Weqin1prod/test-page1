@@ -79,7 +79,7 @@ a {
   justify-content: center;
   flex-grow: 1;
   min-height: 350px;
-  background: url("/img/back.png") no-repeat center/cover;
+  background: url("img/back.png") no-repeat center/cover;
   background-blend-mode: luminosity;
   height: 850px; }
   .page-main div {
