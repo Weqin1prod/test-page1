@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" type='text/css'>
+    <link rel="stylesheet" href="css/main.scss" type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <title>Test</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="page-header">
+          <nav>
+            <h2 class="logo">LOREMIPSUM.<span class="blue">NET</span></h2>
+            <ul>
+              <li>
+                <a class="active" href="">БИЗНЕС</a>
+              </li>
+              <li>
+                <a href="">О НАС</a>
+              </li>
+              <li>
+                <a href="">ЦЕНЫ</a>
+              </li>
+              <li>
+                <a href="">ОФОРМИТЬ ЗАКАЗ</a>
+              </li>
+            </ul>
+           
+          </nav>
+        </header>
+        <main class="page-main">
+          <div>
+            <h1><span class="blue">Lorem ipsum</span> dolor sit ametconsectetur <span class="blue">adipiscing</span></h1>
+            <h2>At vero eos et accusamus et iusto odio dignissimos ducimus!</h2>
+            <p> -    Totam rem aperiam eaque ipsa</p>
+            <p> -     Sit voluptatem accusantium doloremque laudantium</p>
+            <p> -    Sed ut perspiciatis, unde omnis iste natus error</p>
+            <button class="buy" >ЗАКАЗАТЬ</button>
+            <button class="info">ПОДРОБНЕЕ</button>
+          </div>
+        </main>
+        <section class="page-order">
+            <div>
+                <h1>Оформление <span class="blue">Заказа</span></h1>
+                <h2>Перед заполнением формы ознакомьтесь с нашей схемой работы!</h2>
+                <p class="map-1">
+                  Lorem ipsum dolorsit amet </p>
+                  <img class="img-1" src="/img/1.png">
+                  <img class="dot-1" src="/img/dots.png">                  
+                   <p class="map-2">Сonsecteturadipiscing elit</p>
+                    <img class="img-2" src="/img/2.png">
+                    <img class="dot-2" src="/img/dots.png"> 
+                    <p class="map-3">Sed do eiusmod tempor</p>
+                    <img src="/img/3.png" class="img-3">
+                    <img class="dot-3" src="/img/dots.png"> 
+                    <p class="map-4">Esse cillum doloreeu fugiat</p>
+                    <img src="/img/4.png" class="img-4">
+                    <img class="dot-4" src="/img/dots.png"> 
+                    <p class="map-5">Excepteur sint occaecat cupidatat non proident</p>
+                    <img src="/img/5.png" class="img-5">
+
+                    <form action="select1.php" method="post" enctype="multipart/form-data">
+                      <p>
+                        <select class="select" size="1" name="system">
+                       <option class="content">Выберите тип системы</option>
+                       <option class="content" value="Sed ut perspiciatis">Sed ut perspiciatis</option>
+                       <option class="content" value="Nemo enim ipsam">Nemo enim ipsam</option>
+                       <option class="content" value="Et harum quidem">Et harum quidem</option>
+                       <option class="content" value="Temporibus autem">Temporibus autem</option>
+                       <option class="content" value="Itaque earum rerum">Itaque earum rerum</option>
+                      </select>
+                    </p>
+                      
+                       <p>
+                        <input class="email" required type="email" name="email" placeholder="Ваш e-mail">
+                      </p>
+
+                       <p>
+                        <input class="name" required type="name" name="name" placeholder="Ваше имя">
+                      </p>
+
+                       <label class="input-file">
+                        <input type="file" name="file">
+                        
+                      <span>ПРИКРЕПИТЬ ФАЙЛ</span>
+                      <i class="fa fa-file-lines"></i>
+                    </label>
+
+                    <p>
+                      <input type="range" step="1" autocomplete="75" min="0" max="100" list="rangeList" onchange="document.getElementById('rangeValue').innerHTML = this.value;">
+                    <datalist id="rangeList">
+                    <option value="0" label="0">
+                    <option value="25" label="25">
+                    <option value="50" label="50">
+                    <option value="75" label="75">
+                    <option value="100" label="100">
+                    </datalist>
+                    <span class="rt">Sed ut perspiciatis, unde omnis iste natus</span>
+                    <span class="rv" id="rangeValue">50</span>
+                    <span class="rvp">%</span>
+                    </p>
+                    <p><input class="send" type="button" value="отправить" onclick="msg()"></p>
+                     </form>
+
+                 </div>
+        </section>
+        <footer class="page-footer">
+          <small>
+            © 2018 «LoremIpsum.net» Все права защищены.</small>
+              <hr class="wal">
+            <div class="wallets">
+          <ul>
+            <li>
+              <a href="" target="_blank">
+                <img class="icon qiwi" src="/img/qiwi.png">
+                <p class="wallet qiwi">QIWI wallet</p>
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <img class="icon yandex" src="/img/yandex.png">
+                <p class="wallet yandex">Yandex Money</p>
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <img class="icon webmoney" src="/img/Webmoney.png">
+                <p class="wallet webmoney">Web Money</p>
+              </a>
+            </li>
+          </div>
+          </ul>
+          <hr class="con">
+          <div class="contacts">
+            <ul>
+              <li>
+                <a href="" target="_blank">
+                  <img class="icon mail" src="/img/mail.png">
+                  <p class="contact mail">info@ipsum228.com</p>
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img class="icon vk" src="/img/vk.png">
+                  <p class="contact vk">Мы вконтакте</p>
+                </a>
+              </li>
+            </div>
+            </ul>
+        </div>
+        </footer>
+      </div>
+      <script src="https://kit.fontawesome.com/0b55d1aff2.js" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+      <script>
+        $('.input-file input[type=file]').on('change', function(){
+	let file = this.files[0];
+	$(this).next().html(file.name);
+});
+      </script>
+      <script>
+        function msg() {
+          alert("Отправлено!");
+        }
+        </script>
+</body>
+</html>
